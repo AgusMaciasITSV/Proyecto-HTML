@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url("/img/casinobg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* --------------------------------------NAVIGATION BAR SECTION----------------------------------------------------------------------*/
+
+.navbar {
+    background-color: rgb(32, 32, 32);
+    color: whitesmoke;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#icon{
+    padding: 15px;
+    
+}
+
+#title {
+    color: whitesmoke;
+    padding: 25px;
+    
+}
+
+/* --------------------------------------GAMES SECTION-----------------------------------------------------------------------------*/
+.games {
+    justify-content: space-between;
+    display:flex;
+    height: 85%;
+    
+}
+
+a.tragamonedas {
+    background: url(/img/slots.jpg);
+    background-position: center;
+    width: 33%;
+}
+
+
+a.ruleta {
+    background: url(/img/spin.png);
+    background-position: center;
+    width: 33%;
+}
+
+a.blackjack {
+    background: url(/img/blackjackbg.jpg);
+    background-position: center;
+    width: 33%;
+}

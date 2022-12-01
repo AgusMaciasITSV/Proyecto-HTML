@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruleta</title>
+    <link rel="stylesheet" href="css/ruleta.css">
+</head>
+<body>
+    <a href="index.html">
+        <input type="image" name="backarrow" src="/img/backarrow.png" class="backArrow">
+    </a>
+    <div class="main">
+        <div class="mainbox" id="mainbox">
+            <div class="box" id="box">
+                <div class="box1">
+                    <span class="font span1"><h5>PC Deluxe Specs</h5></span>
+                    <span class="font span2"><h5>Asus ROG</h5></span>
+                    <span class="font span3"><h5>Televisor LG 4k</h5></span>
+                    <span class="font span4"><h5>Parlante JBL</h5></span>
+                    <span class="font span5"><h5>Playstation 4 Slim</h5></span>
+                </div>
+                <div class="box2">
+                    <span class="font span1"><h5>???</h5></span>
+                    <span class="font span2"><h5>Auriculares Gamer</h5></span>
+                    <span class="font span3"><h5>Ipad Mini 5</h5></span>
+                    <span class="font span4"><h5>Camara Go Pro++</h5></span>
+                    <span class="font span5"><h5>Dron Mini T67</h5></span>
+                </div>
+            </div>
+            <button class="spin" onclick="spin()">GIRAR</button>
+        </div>
+        <audio 
+        controls="controls"
+        id="applause"
+        src="audio/Kids Cheering - Gaming Sound Effect (HD) (320 kbps).mp3"
+        type="audion/mp3"
+        ></audio>
+        <audio 
+        controls="controls"
+        id="wheel"
+        src="audio/roulette sfx.mp3"
+        type="audion/mp3"
+        ></audio>    
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="js/ruleta.js"></script>
+
+</body>
+</html>
